@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+}
+nav {
+  display: flex;
+  margin-left: auto; /* Pushes nav to the right */
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 20px;
+}
+
+/* #ajres {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+ 
+
+
+
+.checkbox-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Add margin between each checkbox-title pair */
+}
+title {
+  border-right: 1px solid #ccc; /* Add border to the right of titles */
+  padding-right: 10px; /* Add some padding to separate titles from checkboxes */
+  margin-right: 10px; /* Add margin between title and checkbox */
+}
