@@ -22,20 +22,24 @@ nav a {
   margin-left: 20px;
 }
 
-/* #ajres {
+
+
+.todo-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
- 
-
-
-
-.checkbox-title {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px; /* Add margin between each checkbox-title pair */
+  align-items: center;
 }
-title {
-  border-right: 1px solid #ccc; /* Add border to the right of titles */
-  padding-right: 10px; /* Add some padding to separate titles from checkboxes */
-  margin-right: 10px; /* Add margin between title and checkbox */
+
+.todo-title {
+  flex: 1;
+}
+
+.checkbox-container {
+  margin-left: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 5px;
 }
